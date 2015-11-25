@@ -1,0 +1,22 @@
+{
+  "id": "mongo",
+  "cpus": 1.0,
+  "mem": 512,
+  "instances": 1,
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "mongo:3.0.7",
+      "network": "BRIDGE",
+      "portMappings": [
+        { "containerPort": 27017, "hostPort": {{port}}, "protocol": "tcp" }
+      ]
+    }
+  },
+  "healthChecks": [
+    {
+      "portIndex": 0,
+      "protocol": "TCP"
+    }
+  ]
+}

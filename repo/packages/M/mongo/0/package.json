@@ -1,0 +1,8 @@
+{
+  "name": "mongo",
+  "version": "3.0.5",
+  "website": "https://www.mongodb.org/",
+  "maintainer": "support@mesosphere.io",
+  "description": "Mongo application package",
+  "tags": [ "mesosphere", "mongo" ]
+}

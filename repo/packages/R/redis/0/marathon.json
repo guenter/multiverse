@@ -1,0 +1,22 @@
+{
+  "id": "redis",
+  "cpus": 1.0,
+  "mem": 512,
+  "instances": 1,
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "redis:3.0.5",
+      "network": "BRIDGE",
+      "portMappings": [
+        { "containerPort": 6379, "hostPort": {{port}}, "protocol": "tcp" }
+      ]
+    }
+  },
+  "healthChecks": [
+    {
+      "portIndex": 0,
+      "protocol": "TCP"
+    }
+  ]
+}

@@ -166,6 +166,45 @@
       }
     },
     {
+      "currentVersion":"3.0.5",
+      "description":"Mongo application package",
+      "framework":false,
+      "name":"mongo",
+      "tags":[
+        "mesosphere",
+        "mongo"
+      ],
+      "versions":{
+        "3.0.5":"0"
+      }
+    },
+    {
+      "currentVersion":"1.9.7",
+      "description":"Nginx application package",
+      "framework":false,
+      "name":"nginx",
+      "tags":[
+        "mesosphere",
+        "nginx"
+      ],
+      "versions":{
+        "1.9.7":"0"
+      }
+    },
+    {
+      "currentVersion":"3.0.5",
+      "description":"Redis application package",
+      "framework":false,
+      "name":"redis",
+      "tags":[
+        "mesosphere",
+        "redis"
+      ],
+      "versions":{
+        "3.0.5":"0"
+      }
+    },
+    {
       "currentVersion":"0.1.1",
       "description":"A distributed NoSQL key-value data store that offers high availability, fault tolerance, operational simplicity, and scalability.",
       "framework":true,

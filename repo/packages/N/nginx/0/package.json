@@ -1,0 +1,8 @@
+{
+  "name": "nginx",
+  "version": "1.9.7",
+  "website": "http://nginx.org/",
+  "maintainer": "support@mesosphere.io",
+  "description": "Nginx application package",
+  "tags": [ "mesosphere", "nginx" ]
+}

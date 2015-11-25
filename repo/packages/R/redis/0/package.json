@@ -1,0 +1,8 @@
+{
+  "name": "redis",
+  "version": "3.0.5",
+  "website": "http://redis.io",
+  "maintainer": "support@mesosphere.io",
+  "description": "Redis application package",
+  "tags": [ "mesosphere", "redis" ]
+}
